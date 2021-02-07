@@ -444,7 +444,7 @@ core:
     user_controls:
       button: Ρυθμίσεις λογαριασμού
       delete_button: => core.ref.delete
-      delete_confirmation: "Είστε βέβαιοι ότι θέλετε να διαγράψετε τον λογαριασμό σας; Οι αναρτήσεις σας ΔΕΝ θα διαγραφούν. ""
+      delete_confirmation: "Είστε βέβαιοι ότι θέλετε να διαγράψετε τον λογαριασμό σας; Οι αναρτήσεις σας ΔΕΝ θα διαγραφούν."
       delete_error_message: "Η διαγραφή του χρήστη <i>{username} ({email})</i> απέτυχε"
       delete_success_message: "Ο χρήστης <i>{username} ({email})</i> διαγράφηκε επιτυχώς"
       edit_button: => core.ref.edit
