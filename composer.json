@@ -1,0 +1,38 @@
+{
+    "name": "futuresound/flarum-el",
+    "type": "flarum-extension",
+    "description": "Greeek language pack for Flarum and its bundled extensions.",
+    "homepage": "https://github.com/futuresound/flarum-el",
+    "keywords": ["locale"],
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/futuresound/flarum-el/issues",
+        "source": "https://github.com/futuresound/flarum-el"
+    },
+    "require": {
+        "flarum/core": "^0.1.0-beta.15"
+    },
+    "authors": [
+        {
+            "name": "Alex Ghizila",
+            "email": "alex@ghizila.de",
+            "role": "Translator"
+        }
+    ],
+    "extra": {
+        "flarum-extension": {
+            "title": "Greek",
+            "category": "language",
+            "icon": {
+                "image": "icon.svg",
+                "backgroundColor": "#ffffff",
+                "backgroundSize": "cover",
+                "backgroundPosition": "center"
+            }
+        },
+        "flarum-locale": {
+            "code": "el",
+            "title": "Ελληνικά"
+        }
+    }
+}
