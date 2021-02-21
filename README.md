@@ -24,7 +24,8 @@ Extension to localize the Flarum forum software and its official extensions in G
   - [Suspend](https://github.com/flarum/suspend)
   - [Tags](https://github.com/flarum/tags)
 
-
+### External extensions:
+  - [FoF User Bio](https://github.com/FriendsOfFlarum/user-bio)
 
 
 ## Documentation
