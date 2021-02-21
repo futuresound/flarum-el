@@ -1,0 +1,65 @@
+fof-best-answer:
+  admin:
+    permissions:
+      best_answer: Επιλογή Καλύτερης Απάντησης (δικές μου συζητήσεις)
+      best_answer_not_own_discussion: Επιλογή Καλύτερης Απάντησης (συζητήσεις άλλων)
+    settings:
+      label:
+        general: Γενικά
+        reminders: Υπενθυμίσεις
+        advanced: Προχωρημένο
+        reminders_notice: Για να λειτουργούν σωστά οι υπενθυμίσεις, πρέπει να έχετε ρυθμίσει σωστά τον scheduler Flarum.
+      allow_select_own_post: Επιτρέψτε στους χρήστες να επιλέγουν τις δικές τους αναρτήσεις
+      select_best_answer_reminder_days: Υπενθυμίστε στους χρήστες να επιλέξουν την καλύτερη απάντηση μετά από X ημέρες
+      schedule_on_one_server: Χρησιμοποιήστε την οδηγία 'onOneServer()' για το χρονοδιάγραμμα εργασιών (απαιτείται Redis/Memcache)
+      schedule_stop_overnight: Αποτρέψτε την εκτέλεση του χρονοδιαγράμματος υπενθυμίσεων κατά τη διάρκεια κοινωνικών ωρών (9pm - 8am server time)
+      schedule_log_output: Προσάρτηση εξόδου του scheduler στο χώρο αποθήκευσης των logs
+      remind_tag_ids: Για να περιορίσετε τις υπενθυμίσεις σε συγκεκριμένες ετικέτες, εισαγάγετε τα αναγνωριστικά ετικετών εδώ (διαχωρισμένα με κόμματα)
+      use_alt_ui: Χρησιμοποιήστε εναλλακτική διάταξη (κουμπιά καλύτερων απαντήσεων στο υποσέλιδο)
+  forum:
+    answered_badge: Απαντήθηκε
+    this_best_answer: Επιλογή ως η καλύτερη απάντηση
+    remove_best_answer: Διαγραφή ως η καλύτερη απάντηση
+    best_answer_button: Η καλύτερη απάντηση
+    best_answer_label: ορίστηκε από <a>{username}</a> {time_set}
+    errors:
+      mismatch: "Η επιλεγμένη ανάρτηση δεν υπάρχει σε αυτήν τη συζήτηση."
+
+    notification:
+      best_answer_in_discussion: "Ο/Η {username} επέλεξε την καλύτερη απάντηση σε αυτήν τη συζήτηση."
+      content: Επιλέξτε την καλύτερη απάντηση εάν η ερώτησή σας έχει απαντηθεί.
+      awarded: Η ανάρτησή σας ορίστηκε ως η καλύτερη απάντηση από {username}
+
+      preferences:
+        awarded_best_answer: Όταν κάποιος ορίζει την ανάρτησή μου ως καλύτερη απάντηση
+        best_answer_in_discussion: Όταν μια απάντηση έχει οριστεί ως η καλύτερη σε μια συζήτηση στην οποία συμμετείχα
+  email:
+    subject:
+      awarded: Η ανάρτησή σας ορίστηκε ως η καλύτερη απάντηση από {display_name}
+      ba-set: Μια απάντηση ορίστηκε ως η καλύτερη από {display_name}
+      select: Απαντήθηκε η ερώτησή σας;
+    body:
+      awarded: |
+        Γειά σου {recipient_display_name},
+
+        Εξαιρετική δουλειά, {actor_display_name} μόλις όρισε την ανάρτησή σου ως την καλύτερη απάντηση στη συζήτηση '{discussion_title}'. Ευχαριστούμε για τη βοήθεια.
+
+        Δές την συζήτηση εδώ: {discussion_url}
+      ba-set: |
+        Γειά σου {recipient_display_name},
+
+        {actor_display_name} μόλις όρισε την ανάρτησή σου ως την καλύτερη απάντηση στη συζήτηση '{discussion_title}', που πήρες μέρος.
+
+        Δές την συζήτηση εδώ: {discussion_url}
+      select: |
+        Γειά σου {recipient_display_name},
+
+        Σίγουρα πλέον έχεις πάρει αρκετές απαντήσεις στην ερώτησή σου - '{discussion_title}'. Ελπίζουμε ότι μια από αυτές να σε βοήθησε να λυθεί το πρόβλημά σου.
+
+        Θα βοηθούσε πολύ μελλοντικά μέλη του forum που θα έχουν την ίδια ερώτηση με σένα να βρούν την απάντηση πιο γρήγορα και εύκολα έαν μπορούσες να επιλέξεις την καλύτερη απάντηση. Θα ήταν και ένα μεγάλο ευχαριστώ για τα μέλη που βοήθησαν. 
+
+        If so, it would be really helpful for future members if you could set a best answer to your question. It'll help people with the same problem find the answer they need, and it's also a big thank you to the members who helped you out. Δίνουν τον χρόνο τους εθελοντικά, οπότε είναι ωραίο να τους ενημερώσουμε ότι έκαναν ένα καλό.
+
+        Δές τη συζήτηση εδώ: {discussion_url}, και επιλέξτε την καταλληλότερη ανάρτηση ως την καλύτερη απάντηση.
+
+        Ευχαριστούμε πολύ!

@@ -26,7 +26,8 @@ Extension to localize the Flarum forum software and its official extensions in G
 
 ### External extensions:
   - [FoF User Bio](https://github.com/FriendsOfFlarum/user-bio)
-
+  - [FoF Polls](https://github.com/FriendsOfFlarum/polls)
+  - [FoF Best Answer](https://github.com/FriendsOfFlarum/best-answer)
 
 ## Documentation
 
