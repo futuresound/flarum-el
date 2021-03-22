@@ -9,13 +9,13 @@ flarum-mentions:
 
     # These translations are used by the composer (reply autocompletion function).
     composer:
-      mention_tooltip: Tag ενός χρήστη ή μίας ανάρτησης
+      mention_tooltip: Tag ενός χρήστη ή μίας δημοσίευσης
       reply_to_post_text: "Απάντηση στο #{number}"
 
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
       others_text: => core.ref.some_others
-      post_mentioned_text: "{username} απάντησε στην ανάρτησή σου"  # Can be pluralized to agree with the number of users!
+      post_mentioned_text: "{username} απάντησε στην δημοσίευσή σου"  # Can be pluralized to agree with the number of users!
       user_mentioned_text: "{username} σας έκανε tag"
 
     # These translations are displayed beneath individual posts.
@@ -29,8 +29,8 @@ flarum-mentions:
 
     # These translations are used in the Settings page.
     settings:
-      notify_post_mentioned_label: Κάποιος απαντάει σε μια από τις αναρτήσεις μου
-      notify_user_mentioned_label: Κάποιος με κάνει tag σε μία ανάρτηση
+      notify_post_mentioned_label: Κάποιος απαντάει σε μια από τις δημοσιεύσεις μου
+      notify_user_mentioned_label: Κάποιος με κάνει tag σε μία δημοσίευση
 
     # These translations are used in the user profile page and profile popup.
     user:
@@ -41,10 +41,10 @@ flarum-mentions:
 
     # These translations are used in emails sent when a post is replied to
     post_mentioned:
-      subject: "{replier_display_name} απάντησε στην ανάρτηση σας στο {title}"
+      subject: "{replier_display_name} απάντησε στην δημοσίευση σας στο {title}"
       body: |
         Γειά σας {recipient_display_name}!
-        {replier_display_name} απάντησε στην ανάρτησή σας (#{post_number}) στο {title}.
+        {replier_display_name} απάντησε στην δημοσίευσή σας (#{post_number}) στο {title}.
         {url}
         ---
         {content}
@@ -53,7 +53,7 @@ flarum-mentions:
       subject: "{mentioner_display_name} mentioned you in {title}"
       body: |
         Γειά σας {recipient_display_name}!
-        {mentioner_display_name} σας έκανε tag σε μία ανάρτηση στο {title}.
+        {mentioner_display_name} σας έκανε tag σε μία δημοσίευση στο {title}.
         {url}
         ---
         {content}

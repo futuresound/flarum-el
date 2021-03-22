@@ -28,12 +28,12 @@ flarum-subscriptions:
 
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
-      new_post_text: "{username} έκανε μία ανάρτηση"
+      new_post_text: "{username} έκανε μία δημοσίευση"
 
     # These translations are used in the Settings page.
     settings:
       follow_after_reply_label: Να ακολουθώ αυτόματα τις συζητήσεις στις οποίες απαντάω
-      notify_new_post_label: Κάποιος έκανε μία ανάρτηση σε μία συζήτηση που ακολουθώ
+      notify_new_post_label: Κάποιος έκανε μία δημοσίευση σε μία συζήτηση που ακολουθώ
 
     # These translations are used in the subscription menu displayed to the right of the post stream.
     sub_controls:
@@ -44,18 +44,18 @@ flarum-subscriptions:
       ignoring_text: Να μην ειδοποιούμαι ποτέ. Απόκρυψη από την λίστα συζητήσεων.
       not_following_button: Δεν ακολουθώ
       not_following_text: "Να ειδοποιούμαι μόνο όταν κάποιος με κάνει @tag."
-      notify_alert_tooltip: Λάβετε μια ειδοποίηση στο forum όταν υπάρχουν νέες αναρτήσεις
-      notify_email_tooltip: Λάβετε ένα e-mail όταν υπάρχουν νέες αναρτήσεις
+      notify_alert_tooltip: Λάβετε μια ειδοποίηση στο forum όταν υπάρχουν νέες δημοσιεύσεις
+      notify_email_tooltip: Λάβετε ένα e-mail όταν υπάρχουν νέες δημοσιεύσεις
 
   # Translations in this namespace are used in emails sent by the forum.
   email:
 
     # These translations are used in emails sent when a post is made in a subscribed discussion
     new_post:
-      subject: "[Νέα ανάρτηση] {title}"
+      subject: "[Νέα δημοσίευση] {title}"
       body: |
         Γειά σας {recipient_display_name}!
-        {poster_display_name} έκανε μία ανάρτηση σε μία συζήτηση {title} την οποία ακολουθείτε.
+        {poster_display_name} έκανε μία δημοσίευση σε μία συζήτηση {title} την οποία ακολουθείτε.
         Για να δείτε 
         Για να δείτε τη νέα δραστηριότητα, ρίξτε μια ματιά στον ακόλουθο σύνδεσμο:
         {url}

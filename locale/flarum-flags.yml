@@ -9,12 +9,12 @@ flarum-flags:
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      flag_posts_label: Αναφορά αναρτήσεων
-      view_flags_label: Προβολή αναρτήσεων που αναφέρθηκαν
+      flag_posts_label: Αναφορά δημοσιεύσεων
+      view_flags_label: Προβολή δημοσιεύσεων που αναφέρθηκαν
 
     # These translations are used in the Flags Settings modal dialog.
     settings:
-      flag_own_posts_label: Να επιτρέπεται στους χρήστες να κάνουν αναφορά στις δικές τους αναρτήσεις
+      flag_own_posts_label: Να επιτρέπεται στους χρήστες να κάνουν αναφορά στις δικές τους δημοσιεύσεις
       guidelines_url_label: Διεύθυνση URL των όρων χρήσης του forum
       title: Ρυθμίσεις αναφοράς
 
@@ -23,17 +23,17 @@ flarum-flags:
 
     # These translations are used by the Flag Post modal dialog.
     flag_post:
-      confirmation_message: Σας ευχαριστούμε για την αναφορά αυτής της ανάρτησης. Οι συντονιστές μας θα το εξετάσουν.
+      confirmation_message: Σας ευχαριστούμε για την αναφορά αυτής της δημοσίευσης. Οι συντονιστές μας θα το εξετάσουν.
       dismiss_button: => core.ref.okay
       reason_details_placeholder: Πρόσθετες λεπτομέρειες (προαιρετικό)
       reason_inappropriate_label: Ακατάλληλο
-      reason_inappropriate_text: "Αυτή η ανάρτηση είναι προσβλητική, καταχρηστική ή παραβιάζει τους <a>όρους χρήσης</a>."
+      reason_inappropriate_text: "Αυτή η δημοσίευση είναι προσβλητική, καταχρηστική ή παραβιάζει τους <a>όρους χρήσης</a>."
       reason_missing_message: Παρακαλούμε γράψτε μερικές λεπτομέρειες για να βοηθήσετε τους συντονιστές μας.
       reason_off_topic_label: "Εκτός θέματος"
-      reason_off_topic_text: Αυτή η ανάρτηση είναι εκτός θέματος και θα έπρεπε θα μεταφερθεί σε άλλη κατηγορία.
+      reason_off_topic_text: Αυτή η δημοσίευση είναι εκτός θέματος και θα έπρεπε θα μεταφερθεί σε άλλη κατηγορία.
       reason_other_label: Άλλο (Περιγραφή)
       reason_spam_label: Ανεπιθύμητο
-      reason_spam_text: Αυτή η ανάρτηση είναι διαφήμιση.
+      reason_spam_text: Αυτή η δημοσίευση είναι διαφήμιση.
       submit_button: => flarum-flags.ref.flag_post
       title: => flarum-flags.ref.flag_post
 
@@ -60,5 +60,5 @@ flarum-flags:
 
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
-    flag_post: Αναφορά ανάρτησης
-    flagged_posts: Αναρτήσεις που αναφέρθηκαν
+    flag_post: Αναφορά δημοσίευσης
+    flagged_posts: Δημοσιεύσεις που αναφέρθηκαν

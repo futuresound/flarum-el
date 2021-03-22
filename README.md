@@ -7,7 +7,7 @@ Extension to localize the Flarum forum software and its official extensions in G
 
 ### Compatible with:
 
-- [Flarum](https://github.com/flarum/core) (Core v0.1.0-beta.15)
+- [Flarum](https://github.com/flarum/core) (Core v0.1.0-beta.16)
   - [Akismet](https://github.com/flarum/flarum-ext-akismet)
   - [Approval](https://github.com/flarum/flarum-ext-approval)
   - [Emoji](https://github.com/flarum/emoji)
@@ -28,6 +28,8 @@ Extension to localize the Flarum forum software and its official extensions in G
   - [FoF User Bio](https://github.com/FriendsOfFlarum/user-bio)
   - [FoF Polls](https://github.com/FriendsOfFlarum/polls)
   - [FoF Best Answer](https://github.com/FriendsOfFlarum/best-answer)
+  - [Flarum Categories](https://github.com/askvortsov1/flarum-categories)
+  - [FoF User Directory](https://github.com/FriendsOfFlarum/user-directory)
 
 ## Documentation
 
@@ -36,7 +38,7 @@ Extension to localize the Flarum forum software and its official extensions in G
 Use Composer in the root directory of your Flarum installation:
 
 ```text
-composer require futuresound/flarum-el
+composer require futuresound/flarum-el:*
 ```
 
 See also on [Packagist](https://packagist.org/packages/futuresound/flarum-el).

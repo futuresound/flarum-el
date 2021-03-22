@@ -171,15 +171,15 @@ core:
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      allow_post_editing_label: Να επιτραπεί η επεξεργασία της ανάρτησης
+      allow_post_editing_label: Να επιτραπεί η επεξεργασία της δημοσίευσης
       allow_renaming_label: Να επιτραπεί η μετονομασία
       create_heading: Δημιουργία
       delete_discussions_forever_label: Διέγραψε τις συζητήσεις οριστικά
       delete_discussions_label: Διαγραφή συζητήσεων
-      delete_posts_forever_label: Οριστική διαγραφή αναρτήσεων
-      delete_posts_label: Διαγραφή αναρτήσεων
+      delete_posts_forever_label: Οριστική διαγραφή δημοσιεύσεων
+      delete_posts_label: Διαγραφή δημοσιεύσεων
       description: Διαμόρφωσε ποιος μπορεί να δει και να κάνει τι.
-      edit_posts_label: Επεξεργασία αναρτήσεων
+      edit_posts_label: Επεξεργασία δημοσιεύσεων
       edit_users_label: Επεξεργασία χρηστών
       global_heading: Γενίκες
       moderate_heading: Συντονισμός
@@ -195,7 +195,7 @@ core:
       view_discussions_label: Εμφάνιση συζητήσεων
       view_hidden_groups_label: Εμφάνιση εμβλημάτων κρυφών ομάδων
       view_last_seen_at_label: Πάντα να εμφανίζεται πότε ήταν ο χρήστης ενεργός τελευταία φορά
-      view_post_ips_label: Εμφάνιση την IP διεύθυνση της ανάρτησης
+      view_post_ips_label: Εμφάνιση την IP διεύθυνση της δημοσίευσης
       view_user_list_label: Εμφάνιση λίστας χρηστών
 
     # These translations are used in the dropdown menus on the Permissions page.
@@ -246,9 +246,9 @@ core:
 
     # These translations are used by the composer when starting a discussion.
     composer_discussion:
-      body_placeholder: Δημιουργήστε μια ανάρτηση
-      discard_confirmation: "Δέν έχετε αναρτήσει την συζήτησή σας. Θέλετε να την απορρίψετε;"
-      submit_button: Ανάρτηση της συζήτησης
+      body_placeholder: Περιεχόμενο συζήτησης
+      discard_confirmation: "Δέν έχετε δημοσιεύσει την συζήτησή σας. Θέλετε να την απορρίψετε;"
+      submit_button: Δημοσίευση της συζήτησης
       title: => core.ref.start_a_discussion
       title_placeholder: Τίτλος συζήτησης
 
@@ -256,7 +256,7 @@ core:
     composer_edit:
       discard_confirmation: "Δέν έχετε αποθηκεύσει τις αλλαγές σας. Θέλετε να τις απορρίψετε;"
       edited_message: Η αλλαγές αποθηκεύτηκαν.
-      post_link: "Ανάρτηση #{number} στην συζήτηση {discussion}"
+      post_link: "Δημοσίευση #{number} στην συζήτηση {discussion}"
       submit_button: => core.ref.save_changes
       view_button: => core.ref.view
 
@@ -365,23 +365,23 @@ core:
     post:
       edited_text: Επεξεργάστηκε
       edited_tooltip: "{username} επεξεργάστηκε {ago}"
-      number_tooltip: "Ανάρτηση #{number}"
+      number_tooltip: "Δημοσίευση #{number}"
 
     # These translations are used by the post control buttons.
     post_controls:
       delete_button: => core.ref.delete
-      delete_confirmation: "Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτήν την ανάρτηση οριστικά; Αυτή η ενέργεια δε μπορεί να αναιρεθεί."
+      delete_confirmation: "Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτήν την δημοσίευση οριστικά; Αυτή η ενέργεια δε μπορεί να αναιρεθεί."
       delete_forever_button: => core.ref.delete_forever
       edit_button: => core.ref.edit
-      hide_confirmation: "Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτήν την ανάρτηση;"
+      hide_confirmation: "Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτήν την δημοσίευση;"
       restore_button: => core.ref.restore
 
     # These translations are used in the scrubber to the right of the post stream.
     post_scrubber:
       now_link: Τώρα
-      original_post_link: Αρχική ανάρτηση
+      original_post_link: Αρχική δημοσίευση
       unread_text: "{count} μη αναγνωσμένο|{count} μη αναγνωσμένα"
-      viewing_text: "{index} από {count} ανάρτηση|{index} από {count} αναρτήσεις"
+      viewing_text: "{index} από {count} δημοσίευση|{index} από {count} δημοσιεύσεις"
 
     # These translations are displayed between posts in the post stream.
     post_stream:
@@ -444,7 +444,7 @@ core:
     user_controls:
       button: Ρυθμίσεις λογαριασμού
       delete_button: => core.ref.delete
-      delete_confirmation: "Είστε βέβαιοι ότι θέλετε να διαγράψετε τον λογαριασμό σας; Οι αναρτήσεις σας ΔΕΝ θα διαγραφούν."
+      delete_confirmation: "Είστε βέβαιοι ότι θέλετε να διαγράψετε τον λογαριασμό σας; Οι δημοσιεύσεις σας ΔΕΝ θα διαγραφούν."
       delete_error_message: "Η διαγραφή του χρήστη <i>{username} ({email})</i> απέτυχε"
       delete_success_message: "Ο χρήστης <i>{username} ({email})</i> διαγράφηκε επιτυχώς"
       edit_button: => core.ref.edit
@@ -604,7 +604,7 @@ core:
     notifications: Ειδοποιήσεις
     okay: Εντάξει                                     # Referenced by flarum-tags.yml
     password: Κωδικός
-    posts: Αναρτήσεις                                 # Referenced by flarum-statistics.yml
+    posts: Δημοσιεύσεις                                 # Referenced by flarum-statistics.yml
     previous_page: Προηγούμενη σελίδα
     remove: Αφαίρεση
     rename: Μετονομασία
@@ -615,7 +615,7 @@ core:
     settings: Ρυθμίσεις
     sign_up: Εγγραφή
     some_others: "{count} άλλος|{count} άλλοι"  # Referenced by flarum-likes.yml, flarum-mentions.yml
-    start_a_discussion: Ξεκινήστε μία συζήτηση
+    start_a_discussion: Νέα συζήτηση
     username: Username
     users: Χρήστες                                 # Referenced by flarum-statistics.yml
     view: Προβολή
