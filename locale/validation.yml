@@ -78,5 +78,5 @@ validation:
       content: περιεχόμενο
       name_singular: όνομα ενικού
       name_plural: όνομα πληθυντικού
-      tag_count_primary: αριθμός κύριων ενοτήτων
-      tag_count_secondary: αριθμός δευτερεύων ενοτήτων
+      tag_count_primary: αριθμός κατηγοριών
+      tag_count_secondary: αριθμός υποκατηγοριών

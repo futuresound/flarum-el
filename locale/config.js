@@ -41,7 +41,7 @@ dayjs.locale({
     },
     relativeTime: {
       future: 'σε %s',
-      past: 'πριν %s',
+      past: 'πριν από %s',
       s: relativeTimeFormatter,
       m: relativeTimeFormatter,
       mm: relativeTimeFormatter,
