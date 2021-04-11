@@ -1,0 +1,39 @@
+askvortsov-rich-text:
+  admin:
+    settings:
+      toggle_on_editor: Εμφάνιση εναλλαγής λειτουργίας rich text στον επεξεργαστή;
+  forum:
+    composer:
+      toggle_button: Λειτουργία rich text
+      insert_button: Εισαγωγή
+      insert_image:
+        src_placeholder: Σύνδεσμος
+        title_placeholder: Τίτλος
+      insert_link:
+        text_placeholder: Κείμενο
+        href_placeholder: URL
+        title_placeholder: Τίτλος (Προβολή όταν περνάτε το ποντίκι από πάνω)
+        remove_button: Αφαίρεση
+      additional_items_tooltip: Επιπλέον επιλογές
+      bold_tooltip: Έντονο κείμενο <{modifierKey}-b>
+      code_tooltip: Κώδικας <{modifierKey}-`>
+      code_block_tooltip: Εισαγάγετε ένα μπλοκ κώδικα
+      header_tooltip: Αλλαγή σε κεφαλίδα {level} <shift-{modifierKey}-{level}>
+      horizontal_rule_tooltip: Εισαγωγή οριζόντιας γραμμής
+      image_tooltip: Προσθέστε μία εικόνα
+      italic_tooltip: Πλάγιο κείμενο <{modifierKey}-i>
+      link_tooltip: Προσθέστε έναν σύνδεσμο
+      ordered_list_tooltip: Αριθμημένη λίστα <shift-{modifierKey}-9>
+      paragraph_tooltip: Αλλαγή σε παράγραφο <shift-{modifierKey}-0>
+      quote_tooltip: Προσθέστε ένα απόσπασμα <{modifierKey}-q>
+      spoiler_block_tooltip: Μπλοκάρισμα Spoiler/Dropdown
+      spoiler_inline_tooltip: Spoiler  <{modifierKey}-;>
+      strike_tooltip: Διαγράμμιση <alt-shift-5>
+      sub_tooltip: Δείκτης <{modifierKey}-,>
+      sup_tooltip: Εκθέτης <{modifierKey}-.>
+      text_type_tooltip: Επιλογή τύπου κειμένου
+      unordered_list_tooltip: Λίστα με κουκκίδες <shift-{modifierKey}-8>
+    settings:
+      composer_heading: Composer
+      use_rich_text_editor_label: Χρησιμοποιήστε τον επεξεργαστή rich text;
+      rich_text_compact_paragraphs_label: Μην διαχωρίζετε τις παραγράφους με τη νέα γραμμή.
