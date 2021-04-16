@@ -31,6 +31,7 @@ Extension to localize the Flarum forum software and its official extensions in G
   - [Flarum Categories](https://github.com/askvortsov1/flarum-categories)
   - [FoF User Directory](https://github.com/FriendsOfFlarum/user-directory)
   - [FoF Drafts](https://github.com/FriendsOfFlarum/drafts)
+  - [Username Request by FriendsOfFlarum](https://github.com/FriendsOfFlarum/username-request)
   - [Rich Text by Alexander Skvortsov](https://github.com/askvortsov1/flarum-rich-text)
   - [GIFs by Sujit Kumar](https://github.com/therealsujitk/flarum-ext-gifs)
   - [EmojiOne Area for Flarum by Clark Winkelmann](https://github.com/clarkwinkelmann/flarum-ext-emojionearea)
