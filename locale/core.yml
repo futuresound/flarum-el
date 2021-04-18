@@ -409,9 +409,9 @@ core:
       change_password_button: => core.ref.change_password
       notifications_heading: => core.ref.notifications
       notify_by_email_heading: => core.ref.email
-      notify_by_web_heading: Web
-      notify_discussion_renamed_label: Κάποιος μετονόμασε μια συζήτηση που ξεκίνησες
-      privacy_disclose_online_label: Επέτρεψε στους άλλους χρήστες να δουν πότε είμαι ενεργός
+      notify_by_web_heading: Ιστοσελίδα
+      notify_discussion_renamed_label: Κάποιος μετονόμασε μια συζήτηση που ξεκίνησα
+      privacy_disclose_online_label: Επιτρέπω στους άλλους χρήστες να δουν πότε είμαι ενεργός
       privacy_heading: Ιδιωτικότητα
       title: => core.ref.settings
 

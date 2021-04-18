@@ -1,7 +1,7 @@
 clarkwinkelmann-likes-received:
     forum:
         user-card:
-            likes: "Έλαβε {likes} likes"
+            likes: "Οι δημοσιεύσεις του χρήστη αρέσουν σε {likes} άτομα"
 
     admin:
         permission:

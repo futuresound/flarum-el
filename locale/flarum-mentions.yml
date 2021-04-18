@@ -15,13 +15,13 @@ flarum-mentions:
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
       others_text: => core.ref.some_others
-      post_mentioned_text: "{username} απάντησε στην δημοσίευσή σου"  # Can be pluralized to agree with the number of users!
-      user_mentioned_text: "{username} σας έκανε tag"
+      post_mentioned_text: "Ο χρήστης {username} απάντησε στην δημοσίευσή σας"  # Can be pluralized to agree with the number of users!
+      user_mentioned_text: "Ο χρήστης {username} σας έκανε tag"
 
     # These translations are displayed beneath individual posts.
     post:
-      mentioned_by_self_text: "{users} απάντησε σε αυτό.|{users} απάντησαν σε αυτό."  # Can be pluralized to agree with the number of users!
-      mentioned_by_text: "{users} απάντησε σε αυτό.|{users} απάντησαν σε αυτό."       # Can be pluralized to agree with the number of users!
+      mentioned_by_self_text: "Ο χρήστης {users} απάντησε σε αυτό.|Οι χρήστες {users} απάντησαν σε αυτό."  # Can be pluralized to agree with the number of users!
+      mentioned_by_text: "Ο χρήστης {users} απάντησε σε αυτό.|Οι χρήστες {users} απάντησαν σε αυτό."       # Can be pluralized to agree with the number of users!
       others_text: => core.ref.some_others
       quote_button: Απόσπασμα
       reply_link: => core.ref.reply
@@ -29,8 +29,8 @@ flarum-mentions:
 
     # These translations are used in the Settings page.
     settings:
-      notify_post_mentioned_label: Κάποιος απαντάει σε μια από τις δημοσιεύσεις μου
-      notify_user_mentioned_label: Κάποιος με κάνει tag σε μία δημοσίευση
+      notify_post_mentioned_label: Κάποιος απάντησε σε μια από τις δημοσιεύσεις μου
+      notify_user_mentioned_label: Κάποιος με έκανε tag σε μία δημοσίευση
 
     # These translations are used in the user profile page and profile popup.
     user:
@@ -50,7 +50,7 @@ flarum-mentions:
         {content}
     # These translations are used in emails sent when a user is mentioned
     user_mentioned:
-      subject: "{mentioner_display_name} mentioned you in {title}"
+      subject: "{mentioner_display_name} σας έκανε tag σε μία δημοσίευση στο {title}"
       body: |
         Γειά σας {recipient_display_name}!
         {mentioner_display_name} σας έκανε tag σε μία δημοσίευση στο {title}.

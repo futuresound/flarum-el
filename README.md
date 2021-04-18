@@ -31,13 +31,22 @@ Extension to localize the Flarum forum software and its official extensions in G
   - [Flarum Categories](https://github.com/askvortsov1/flarum-categories)
   - [FoF User Directory](https://github.com/FriendsOfFlarum/user-directory)
   - [FoF Drafts](https://github.com/FriendsOfFlarum/drafts)
-  - [Username Request by FriendsOfFlarum](https://github.com/FriendsOfFlarum/username-request)
+  - [FoF Username Request](https://github.com/FriendsOfFlarum/username-request)
+  - [FoF Masquerade](https://github.com/FriendsOfFlarum/masquerade)
+  - [FoF OAuth*](https://github.com/FriendsOfFlarum/oauth)
+  - [FoF Share Social](https://github.com/FriendsOfFlarum/share-social)
+  - [FoF Forum Statistics Widget*](https://github.com/FriendsOfFlarum/forum-statistics-widget)
+  - [FoF Terms*](https://github.com/FriendsOfFlarum/terms)
+  - [FoF Upload*](https://github.com/FriendsOfFlarum/upload)
   - [Rich Text by Alexander Skvortsov](https://github.com/askvortsov1/flarum-rich-text)
   - [GIFs by Sujit Kumar](https://github.com/therealsujitk/flarum-ext-gifs)
   - [EmojiOne Area for Flarum by Clark Winkelmann](https://github.com/clarkwinkelmann/flarum-ext-emojionearea)
   - [Likes Received - Clark Winkelmann](https://github.com/clarkwinkelmann/flarum-ext-likes-received)
   - [Registration Roles by Ian Morland](https://github.com/imorland/flarum-regrole)
+  - [Flarum discussion views by MichaelBelgium](https://github.com/MichaelBelgium/flarum-discussion-views)
+  - [ProfileCover by Sych09](https://github.com/SychO9/flarum-profile-cover)
 
+_* (Frontend only)_
 ## Documentation
 
 ### How to install

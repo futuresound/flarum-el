@@ -8,7 +8,7 @@ fof-user-directory:
             field:
                 placeholder: Αναζήτηση στην λίστα χρηστών
         page:
-            nav: Λίστα χρηστών
+            nav: Χρήστες
             refresh_tooltip: => core.forum.index.refresh_tooltip
             load_more_button: => core.ref.load_more
             empty_text: Δεν βρήκαμε κανέναν χρήστη με το όνομα που δώσατε
@@ -23,7 +23,7 @@ fof-user-directory:
 
     lib:
         sort:
-            not_specified: Προεπιλογή Flarum
+            not_specified: Προεπιλογή
             default: Προεπιλογή
             username_az: Username (Α-Ω)
             username_za: Username (Ω-Α)

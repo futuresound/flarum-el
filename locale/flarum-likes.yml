@@ -17,13 +17,13 @@ flarum-likes:
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
       others_text: => core.ref.some_others
-      post_liked_text: "Στον χρήστη {username} άρεσε η δημοσίευσή σου"  # Can be pluralized to agree with the number of users!
+      post_liked_text: "Στον χρήστη {username} άρεσε η δημοσίευσή σας"  # Can be pluralized to agree with the number of users!
 
     # These translations are displayed beneath individual posts.
     post:
       like_link: Μου αρέσει
       liked_by_self_text: "Στους χρήστες {users} αρέσει αυτό."  # Can be pluralized to agree with the number of users!
-      liked_by_text: "Στον χρήστη {users} αρέσει αυτο.|Στους χρήστες {users} αρέσει αυτο."
+      liked_by_text: "Στον χρήστη {users} αρέσει αυτό.|Στους χρήστες {users} αρέσει αυτό."
       others_link: => core.ref.some_others
       unlike_link: Δεν μου αρέσει
       you_text: => core.ref.you

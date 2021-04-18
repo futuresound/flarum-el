@@ -23,7 +23,7 @@ fof-username-request:
         new_name: 'Το nickname σας άλλαξε με επιτυχία σε: {name}'
         rejected: Το αίτημά σας για αλλαγή του nickname απορρίφθηκε
         reason: 'Λόγος απόρριψης: <i>"{reason}"</i>.'
-        resubmit: Προς το παρόν, μπορείτε να υποβάλετε ξανά ένα νέο αίτημα αλλαγής του nickname από τις ρυθμίσεις του λογαριασμού σας, εάν το επιθυμείτε.
+        resubmit: Μπορείτε να υποβάλετε ξανά ένα νέο αίτημα αλλαγής του nickname από τις ρυθμίσεις του λογαριασμού σας, εάν το επιθυμείτε.
       request:
         title: Αίτημα αλλαγής Nickname
         current_request: Έχετε ήδη ζητήσει να αλλάξετε το ψευδώνυμό σας σε "{name}". Μπορείτε είτε να ενημερώσετε το αίτημά σας είτε να το διαγράψετε.
@@ -46,15 +46,15 @@ fof-username-request:
         name: 'Ο χρήστης {name} ζήτησε την αλλαγή του username σε "{requestedName}"'
       results:
         title: Αίτημα αλλαγής Username
-        approved: 'Your username change request has been approved'
+        approved: 'Το αίτημά σας για αλλαγή του username εγκρίθηκε'
         dismiss_button: => core.ref.okay
         new_name: 'Το username σας άλλαξε με επιτυχία σε: {name}'
         rejected: Το αίτημά σας για αλλαγή του username απορρίφθηκε
         reason: 'Λόγος απόρριψης: <i>"{reason}"</i>.'
-        resubmit: At this time you may resubmit a new username change request from your account settings if you so choose to.
+        resubmit: Μπορείτε να υποβάλετε ξανά ένα νέο αίτημα αλλαγής του username από τις ρυθμίσεις του λογαριασμού σας, εάν το επιθυμείτε.
       request:
         title: Αίτημα αλλαγής Username
-        current_request: Προς το παρόν, μπορείτε να υποβάλετε ξανά ένα νέο αίτημα αλλαγής του username από τις ρυθμίσεις του λογαριασμού σας, εάν το επιθυμείτε.
+        current_request: Μπορείτε να υποβάλετε ξανά ένα νέο αίτημα αλλαγής του username από τις ρυθμίσεις του λογαριασμού σας, εάν το επιθυμείτε.
         submit_button: Υποβολή αιτήματος
         delete_button: Διαγραφή αιτήματος
         confirmation_message: Το αίτημά σας για αλλαγή του username υποβλήθηκε και εκκρεμεί έγκριση.
