@@ -2,12 +2,14 @@
 
 Extension to localize the Flarum forum software and its official extensions in Greek.
 
+**Compatible with Flarum 1.0 and newer.**
+
 ## Information
 
 
 ### Compatible with:
 
-- [Flarum](https://github.com/flarum/core) (Core v0.1.0-beta.16)
+- [Flarum](https://github.com/flarum/core) (Core v1.0)
   - [Akismet](https://github.com/flarum/flarum-ext-akismet)
   - [Approval](https://github.com/flarum/flarum-ext-approval)
   - [Emoji](https://github.com/flarum/emoji)
