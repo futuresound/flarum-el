@@ -1,7 +1,7 @@
 {
     "name": "futuresound/flarum-el",
     "type": "flarum-extension",
-    "description": "Greeek language pack for Flarum, bundled extensions and a number of external extensions.",
+    "description": "Greek language pack for Flarum, bundled extensions and a number of external extensions.",
     "homepage": "https://github.com/futuresound/flarum-el",
     "keywords": ["locale"],
     "license": "MIT",

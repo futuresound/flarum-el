@@ -1,6 +1,6 @@
 # Greek Language Pack for [Flarum](https://flarum.org/)
 
-Extension to localize the Flarum forum software and its official extensions in Greek.
+Greek language pack for Flarum, bundled extensions and a number of external extensions.
 
 **Compatible with Flarum 1.0 and newer.**
 
