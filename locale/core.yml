@@ -59,14 +59,6 @@ core:
       title: Πίνακας ελέγχου
       tools_button: Εργαλεία
 
-     # These translations are usin in the debug warning widget.
-      debug-warning:
-        detail: |
-          Όταν η λειτουργία εντοπισμού σφαλμάτων (<code>debug</code>) είναι ενεργή, το Flarum θα ανακατασκευάζει τα στοιχεία <code>JavaScript</code> και <code>CSS</code> σε κάθε αίτηση και θα μπορούσε επίσης δυνητικά να διαρρεύσει άλλες πληροφορίες, όπως ευαίσθητα στοιχεία βάσης δεδομένων, μεταβλητές περιβάλλοντος κ.λπ.
-  
-          Συνιστάται ιδιαίτερα να απενεργοποιήσετε την αποσφαλμάτωση (<code>debug</code>) στο αρχείο <code>config.php</code> στην παραγωγή. Δείτε τα <link>έγγραφα του Flarum<-link> για περισσότερες πληροφορίες.
-        label: Debug ενεργοποιημένο
-
     # These translations are used in the Edit Custom CSS modal dialog.
     edit_css:
       customize_text: "Διαμόρφωσε την εμφάνιση του forum σου, προσθέτοντας τον δικό σου LESS/CSS κώδικα που θα προστεθεί στα <a>προκαθορισμένα styles</a> του Flarum."
@@ -141,11 +133,8 @@ core:
       no_settings: Αυτό το πρόθετο δεν έχει ρυθμίσεις.
       open_modal: Άνοιγμα ρυθμίσεων
       permissions_title: Δικαιώματα
-      purge_button: Καθαρισμός
-        readme:
-          button_label: README
-          no_readme: Αυτή η επέκταση δεν φαίνεται να έχει αρχείο README
-          title: "{extName} documentation"
+      saved_message: Οι αλλαγές αποθηκεύτηκαν.
+      uninstall_button: Απεγκατάσταση
 
     # These translations are used in the secondary header.
     header:
@@ -178,8 +167,6 @@ core:
       email_title: => core.admin.email.description
       permissions_button: => core.admin.permissions.title
       permissions_title: => core.admin.permissions.description
-      userlist_button: => core.admin.users.title
-      userlist_title: => core.admin.users.description
       search_placeholder: Αναζήτηση προσθέτων
 
     # These translations are used in the Permissions page of the admin interface.
@@ -222,54 +209,14 @@ core:
       signup_closed_button: Κλειστό
       signup_open_button: Ανοιχτό
 
-    # These translations are used generically in setting fields.
+    # These translations are used in the Settings modal dialog.
     settings:
-      saved_message: Οι αλλαγές σας αποθηκεύτηκαν.
       submit_button: => core.ref.save_changes
 
     # These translations are used in image upload buttons.
     upload_image:
       remove_button: => core.ref.remove
       upload_button: Επίλεξε μια εικόνα...
-      # These translations are used for the users list on the admin dashboard.
-      users:
-        description: Μια σελιδοποιημένη λίστα όλων των χρηστών στο forum σας.
-  
-        grid:
-          columns:
-            edit_user:
-              button: => core.ref.edit
-              title: => core.ref.edit_user
-              tooltip: Επεξεργασία {username}
-  
-            email:
-              title: => core.ref.email
-              visibility_hide: Απόκρυψη διεύθυνσης email
-              visibility_show: Προβολή διεύθυνσης email
-  
-            group_badges:
-              no_badges: Καμία
-              title: Ομάδες
-  
-            join_time:
-              title: Είστε μέλος
-  
-            user_id:
-              title: ID
-  
-            username:
-              profile_link_tooltip: Επίσκεψη προφίλ του χρήστη {username}
-              title: => core.ref.username
-  
-          invalid_column_content: Μη έγκυρο
-  
-        pagination:
-          back_button: Προηγούμενη σελίδα
-          next_button: Επόμενη σελίδα
-          page_counter: Σελίδα {current} από {total}
-  
-        title: => core.ref.users
-        total_users: "Σύνολο χρηστών: {count}"
 
   # Translations in this namespace are used by the forum user interface.
   forum:
@@ -332,7 +279,6 @@ core:
       rename_button: => core.ref.rename
       reply_button: => core.ref.reply
       restore_button: => core.ref.restore
-      toggle_dropdown_accessible_label: Εναλλαγή του πτυσσόμενου μενού ενεργειών συζήτησης
 
     # These translations are used in the discussion list.
     discussion_list:
@@ -341,9 +287,7 @@ core:
       mark_as_read_tooltip: Επισήμανση ως αναγνωσμένο
       replied_text: "{username} απάντησε {ago}"
       started_text: "{username} ξεκίνησε {ago}"
-      total_replies_a11y_label: "{count, plural, one {# reply} other {# replies}}"
-       unread_replies_a11y_label: "{count, plural, one {# unread reply} other {# unread replies}}. Mark unread {count, plural, one {reply} other {replies}} as read."
-    
+
     # These translations are used in the Edit User modal dialog (admin function).
     edit_user:
       activate_button: Ενεργοποίηση χρήστη
@@ -357,7 +301,6 @@ core:
       title: Επεξεργασία χρήστη
       username_heading: => core.ref.username
       username_label: => core.ref.username
-      nothing_available: Δεν επιτρέπεται η επεξεργασία προφίλ αυτού του χρήστη.
 
     # These translations are used in the Forgot Password modal dialog.
     forgot_password:
@@ -373,14 +316,10 @@ core:
     header:
       admin_button: Διαχείριση
       back_to_index_tooltip: Πίσω στην λίστα συζητήσεων
-      locale_dropdown_accessible_label: Αλλαγή γλώσσας του forum
       log_in_link: => core.ref.log_in
       log_out_button: => core.ref.log_out
       profile_button: Προφίλ
-      search_clear_button_accessible_label: Καθαρισμός όρου αναζήτησης
       search_placeholder: Αναζήτηση στο Forum
-      search_role_label: Αναζήτηση στο Forum
-      session_dropdown_accessible_label: Εναλλαγή πτυσσόμενου μενού ρυθμίσεων session
       settings_button: => core.ref.settings
       sign_up_link: => core.ref.sign_up
 
@@ -415,14 +354,11 @@ core:
 
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
-      delete_all_confirm: Είστε σίγουροι ότι θέλετε να διαγράψετε όλες τις ειδοποιήσεις; Αυτή η ενέργεια δεν μπορεί να αντιστραφεί
-      delete_all_tooltip: Διαγραφή όλων των ειδοποιήσεων
       discussion_renamed_text: "{username} άλλαξε αυτόν τον τίτλο"
       empty_text: Καμία ειδοποίηση
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
       mark_as_read_tooltip: Επισήμανση ως αναγνωσμένο
       title: => core.ref.notifications
-      toggle_dropdown_accessible_label: Προβολή ειδοποιήσεων
       tooltip: => core.ref.notifications
 
     # These translations are used by tooltips displayed for individual posts.
@@ -439,7 +375,6 @@ core:
       edit_button: => core.ref.edit
       hide_confirmation: "Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτήν την δημοσίευση;"
       restore_button: => core.ref.restore
-      toggle_dropdown_accessible_label: Αλλαγή του πτυσσόμενου μενού των ρυθμίσεων ανάρτησης
 
     # These translations are used in the scrubber to the right of the post stream.
     post_scrubber:
@@ -520,17 +455,8 @@ core:
       resend_button: Αποστολή ξανά του e-mail επιβεβαίωσης
       sent_message: Αποστολή επιτυχής
 
-    welcome_hero:
-        hide: Απόκρυψη μηνύματος καλωσορίσματος
-
   # Translations in this namespace are used by the forum and admin interfaces.
   lib:
-
-    debug_button: Debug
-  
-    # These translations are used in the Alert component.
-    alert:
-      dismiss_a11y_label: Απόρριψη ειδοποίησης
 
     # These translations are displayed as tooltips for discussion badges.
     badge:
@@ -540,26 +466,11 @@ core:
     error:
     
       dependent_extensions_message: "Δεν είναι δυνατή η απενεργοποίηση του πρόσθετου {extension} έως ότου απενεργοποιηθούν τα ακόλουθα πρόσθετα: {extensions}"
-      extension_initialiation_failed_message: "Η επέκταση {extension} απέτυχε να ξεκινήσει, ελέγξτε την κονσόλα του προγράμματος περιήγησης για περισσότερες πληροφορίες."
       generic_message: "Ωχ! Κάτι πήγε στραβά. Ανανεώστε τη σελίδα και δοκιμάστε ξανά."
       missing_dependencies_message: "Δεν είναι δυνατή η ενεργοποίηση του πρόσθετου {extension} έως ότου ενεργοποιηθούν τα ακόλουθα πρόσθετα: {extensions}"
       not_found_message: Η πηγή που ζητήσατε δεν βρέθηκε.
       permission_denied_message: Δυστυχώς δεν έχετε τα απαραίτητα δικαώματα για να το κάνετε αυτό.
       rate_limit_exceeded_message: Δοκιμάσατε αρκετές φορές. Για λόγους ασφαλείας, ξαναδοκιμάστε σε λίγα λεπτά.
-
-    # These translations are used in the loading indicator component.
-      loading_indicator:
-        accessible_label: => core.ref.loading
-  
-      
-      # These translations are used in modals.
-      modal:
-        close: Κλείσιμο
-  
-      # These translations are used in the navigation header.
-      nav:
-        drawer_button: Άνοιγμα συρταριού πλοήγησης
-
 
     # These translations are used as suffixes when abbreviating numbers.
     number_suffix:
@@ -578,27 +489,6 @@ core:
 
   # Translations in this namespace are used in views other than Flarum's normal JS client.
   views:
-
-     # Translations in this namespace are displayed by the basic HTML admin index.
-      admin:
-        extensions:
-          caption: => core.ref.extensions
-          disable: Απενεργοποίηση
-          empty: Δεν υπάρχουν εγκατεστημένες επεκτάσεις
-          enable: Ενεργοποίηση
-          name: Όνομα επέκτασης
-          package_name: Όνομα πακέτου
-          version: Έκδοση
-        info:
-          caption: Πληροφορίες εφαρμογής
-        title: Διαχείριση
-  
-      # Translations in this namespace are displayed by the Confirm Email interface.
-      confirm_email:
-        submit_button: => core.ref.confirm_email
-        text: Κάντε κλικ στο παρακάτω κουμπί για να επιβεβαιώσετε το email του λογαριασμού σας.
-        title: => core.ref.confirm_email
-
 
     # Translations in this namespace are displayed by the basic HTML content loader.
     content:
