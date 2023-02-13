@@ -1,3 +1,8 @@
+## This repository is no longer maintained. Please use [this one](https://github.com/flarum-lang/greek) instead. Read the instructions on how to install it or how can you help by contributing to the translations.
+
+
+
+
 # Greek Language Pack for [Flarum](https://flarum.org/)
 
 Greek language pack for Flarum, bundled extensions and a number of external extensions.
